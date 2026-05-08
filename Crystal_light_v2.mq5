@@ -175,7 +175,7 @@ void OnTradeTransaction(const MqlTradeTransaction &trans,
 }
 
 //+------------------------------------------------------------------+
-//| Draw information panel with Search_light_CFD mechanism           |
+//| Draw information panel                                           |
 //+------------------------------------------------------------------+
 void DrawInfo() {
     string c_symbol       = Symbol();
@@ -515,7 +515,7 @@ int CountMyPending(int orderType) {
 }
 
 //+------------------------------------------------------------------+
-//| Candle timer from Search_light_CFD style                         |
+//| Candle timer                                                     |
 //+------------------------------------------------------------------+
 string CandleTimer() {
     ENUM_TIMEFRAMES tf = EffectiveTimeFrame();
